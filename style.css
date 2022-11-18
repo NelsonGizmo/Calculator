@@ -1,9 +1,9 @@
 main {
   border-radius: 10px;
-  margin: 50px 400px;
+  margin: 50px 0;
   border: 1px solid rgb(62, 62, 150);
-  height: 81vh;
-  width: 30vw;
+  height: 520px;
+  width: 400px;
   background-color: rgba(65, 65, 238, 0.792);
   box-shadow: 2px 2px 2px;
 }
