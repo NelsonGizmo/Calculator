@@ -14,32 +14,32 @@
         </section>
         <section class="buttons">
             <div class="line1">
-                <input type="button" value="CE" class="btn1">
-                <input type="button" value="%" class="btn">
-                <input type="button" value="+" class="btn">
-                <input type="button" value="&#8722" class="btn">
+                <input type="button" value="CE" id="clear" class="btn1" onclick="clearScreen()">
+                <input type="button" value="%" class="btn" onclick = "displayChar('%')">
+                <input type="button" value="+" class="btn" onclick = "displayChar('+')">
+                <input type="button" value="-" class="btn" onclick = "displayChar('-')">
             </div>
             <div class="line2">
-                <input type="button" value="7" class="btn">
-                <input type="button" value="8" class="btn">
-                <input type="button" value="9" class="btn">
-                <input type="button" value="&#247" class="btn">
+                <input type="button" value="7" class="btn" onclick = "displayChar('7')">
+                <input type="button" value="8" class="btn" onclick = "displayChar('8')">
+                <input type="button" value="9" class="btn" onclick = "displayChar('9')">
+                <input type="button" value="/" class="btn" onclick = "displayChar('/')">
             </div>
             <div class="line3">
-                <input type="button" value="4" class="btn">
-                <input type="button" value="5" class="btn">
-                <input type="button" value="6" class="btn">
-                <input type="button" value="&#215" class="btn">
+                <input type="button" value="4" class="btn" onclick = "displayChar('4')">
+                <input type="button" value="5" class="btn" onclick = "displayChar('5')">
+                <input type="button" value="6" class="btn" onclick = "displayChar('6')">
+                <input type="button" value="*" class="btn" onclick = "displayChar('*')">
             </div>
             <div class="line4">
-               <input type="button" value="1" class="btn4">
-               <input type="button" value="2" class="btn5">
-               <input type="button" value="3" class="btn6">
+               <input type="button" value="1" class="btn4" onclick = "displayChar('1')">
+               <input type="button" value="2" class="btn5" onclick = "displayChar('2')">
+               <input type="button" value="3" class="btn6" onclick = "displayChar('3')">
             </div>
             <div class="line5">
-                <input type="button" value="0" class="btn3">
-                <input type="button" value="." class="btn7">
-                <input type="button" value="&#61" class="btn2">
+                <input type="button" value="0" class="btn3"  onclick = "displayChar('0')">
+                <input type="button" value="." class="btn7" onclick = "displayChar('.')">
+                <input type="button" value="=" id="equal" class="btn2" onclick = "result()">
  
             </div>
         </section>
